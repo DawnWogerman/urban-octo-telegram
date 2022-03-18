@@ -68,8 +68,12 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*Search engine article */
-.search-engine-optimization {
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,46 +81,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+   
+/* Content Images */
 .search-engine-optimization img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*online reputation article */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 .online-reputation-management img {
     max-height: 200px;
     float: right;
     margin-left: 25px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Social media article */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
 .social-media-marketing img {
@@ -125,10 +101,6 @@ p {
     margin-right: 25px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /*End main content/article section styles */
 
 /*Start benefits aside styles */
@@ -152,24 +124,18 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Leads style */
-
+/*Benefit images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*Brands style */
-
-
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*Costs style */
 
 .benefit-cost img {
     display: block;
