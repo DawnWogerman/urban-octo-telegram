@@ -143,16 +143,16 @@ p {
     background-color: #2589bd;
 }
 
-/*Leads style */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
+
+.benefit-lead, .benefit-brand, .benefit-cost{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Leads style */
 
 .benefit-lead img {
     display: block;
@@ -161,15 +161,7 @@ p {
 }
 
 /*Brands style */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-brand img {
     display: block;
@@ -178,15 +170,6 @@ p {
 }
 
 /*Costs style */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-cost img {
     display: block;
